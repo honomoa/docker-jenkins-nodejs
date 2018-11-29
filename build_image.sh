@@ -1,6 +1,6 @@
 #!/bin/sh
 
-NODEJS_VERSION=${1:-8.13.0}
+NODEJS_VERSION=${1:-10.14.0}
 
 docker build \
   --build-arg NODEJS_VERSION=${NODEJS_VERSION} \
